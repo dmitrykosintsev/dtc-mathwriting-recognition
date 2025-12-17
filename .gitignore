@@ -207,3 +207,14 @@ marimo/_lsp/
 __marimo__/
 
 dataset/
+/data/test-00000-of-00001-694f317d8b634199.parquet
+/data/train-00000-of-00003-ab0ae6b9fa4a3f06.parquet
+/data/train-00001-of-00003-589d2b65116e09aa.parquet
+/data/train-00002-of-00003-42472859069c07bc.parquet
+/data/val-00000-of-00001-184984e66f80ed7a.parquet
+/.idea/.gitignore
+/.idea/dtc-mathwriting-recognition.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
