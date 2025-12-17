@@ -1,7 +1,12 @@
 # Handwritten math recognition using CNN
 This project aims at creating a simple solution to transform written math formulae into LaTex expressions.
 
-## Dataset
+## Problem description
+
+
+## Data and EDA insights
+
+### Dataset
 ```bibtex
 @misc{gervais2025mathwritingdatasethandwrittenmathematical,
       title={MathWriting: A Dataset For Handwritten Mathematical Expression Recognition}, 
@@ -14,12 +19,41 @@ This project aims at creating a simple solution to transform written math formul
 ```
 [Dataset on HuggingFace](https://huggingface.co/datasets/deepcopy/MathWriting-human)
 
-## CNN-based Image Recognition
+## Model training
 
-## Tokenization into LaTeX
+### CNN-based Image Recognition
 
-## Training
+### Tokenization into LaTeX
 
-## Output
+### Training
 
-## Challenges
+### Output
+
+### Challenges
+
+## Notebook to script
+
+## How to reproduce
+Explicitly installed packages:
+* huggingface_hub
+
+1. Clone the repository:
+```bash
+git clone 
+```
+2. Install huggingface_hub:
+```bash
+pip install huggingface_hub
+```
+3. To get data, run the following command in the root folder of the cloned project:
+```bash
+python get_dataset.py
+```
+A new folder named **data** will be created. It contains the dataset split into train, test and validation sets.
+
+## Model deployment
+### Dependencies
+
+### Containerization
+
+### Cloud deployment
