@@ -206,7 +206,6 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-dataset/
 /data/test-00000-of-00001-694f317d8b634199.parquet
 /data/train-00000-of-00003-ab0ae6b9fa4a3f06.parquet
 /data/train-00001-of-00003-589d2b65116e09aa.parquet
