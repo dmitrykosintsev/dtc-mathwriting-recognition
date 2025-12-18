@@ -36,6 +36,10 @@ This project aims at creating a simple solution to transform written math formul
 ## How to reproduce
 Explicitly installed packages:
 * huggingface_hub
+* jupyter notebook
+* pandas
+* fastparquet
+* numpy
 
 1. Clone the repository:
 ```bash
