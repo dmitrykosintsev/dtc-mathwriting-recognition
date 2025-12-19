@@ -2,7 +2,7 @@
 This project aims at creating a simple solution to transform written math formulae into LaTex expressions.
 
 ## Problem description
-
+Writing formulae in mathematics using LaTex can be cumbersome. An old pen-and-paper approach or modern devices with touchscreen and digital pens can save a lot of time. However, such writings are usually not appropriate for research papers or academic work, as the readability depends a lot on how neat one's writing is. This application built using a convolutional neural network aims to bridge the gap and make it easier to digitalise any handwritten notes in mathematics.
 
 ## Data and EDA insights
 
