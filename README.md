@@ -40,6 +40,7 @@ Explicitly installed packages:
 * pandas
 * fastparquet
 * numpy
+* pillow
 
 1. Clone the repository:
 ```bash
