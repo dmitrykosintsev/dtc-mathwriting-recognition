@@ -19,6 +19,24 @@ Writing formulae in mathematics using LaTex can be cumbersome. An old pen-and-pa
 ```
 [Dataset on HuggingFace](https://huggingface.co/datasets/deepcopy/MathWriting-human)
 
+### Analysing the data
+There are 3 types of analysis done to understand the data better:
+* Image-based: 
+  * visual inspection of random samples to identify files that can be corrupted
+![Sample of images](./pictures/Sample.png)
+  * aspect ratio distribution analysis to identify how the dataset can be resized
+![Aspect ration analysis](./pictures/Aspect.png)
+* Text-based to analyse the complexity of formulae in the dataset:
+  * LaTex formula length:
+![Formula length analysis](./pictures/Formula_length.png)
+  * Token distribution:
+![Token distribution analysis](./pictures/Token_distribution.png)
+  * Formula structure:
+![Nesting depth analysis](./pictures/Nesting_depth.png)
+  * Common formula patterns:
+![Formula patterns analysis](./pictures/Formula_patterns.png)
+* Image-Text correlation:
+
 ## Model training
 
 ### CNN-based Image Recognition
