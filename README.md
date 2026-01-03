@@ -53,12 +53,14 @@ There are 3 types of analysis done to understand the data better:
 
 ## How to reproduce
 Explicitly installed packages:
-* huggingface_hub
+* huggingface_hub (to download data)
 * jupyter notebook
 * pandas
 * fastparquet
 * numpy
 * pillow
+* torch
+* torchvision
 
 1. Clone the repository:
 ```bash
